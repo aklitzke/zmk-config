@@ -8,6 +8,10 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+&sk {
+        ignore-modifiers;
+};
+
 / {
         chosen {
                 zmk,matrix-transform = &five_column_transform;
