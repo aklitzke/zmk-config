@@ -55,7 +55,7 @@
                 };
 
                 lower_layer {
-                        display-name = "NUM NAV";
+                        display-name = "NUMNAV";
 // -----------------------------------------------------------------------------------------
 // |  /  |  7  |  8  |  9  |  -  |   | HME | PGD | PGU | END | DEL |
 // |  *  |  4  |  5  |  6  |  +  |   | LFT | DWN |  UP | RGT | TAB |
