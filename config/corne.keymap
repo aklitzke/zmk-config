@@ -17,8 +17,8 @@
                 td_ctrl_cmd: td_ctrl_cmd {
                         compatible = "zmk,behavior-tap-dance";
                         #binding-cells = <0>;
-                        tapping-term-ms = <200>;
-                        bindings = <&td_ctrl_cmd>, <&kp LGUI>;
+                        tapping-term-ms = <300>;
+                        bindings = <&kp LCTRL>, <&kp LGUI>;
                 };
         };
 
