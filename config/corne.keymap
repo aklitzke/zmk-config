@@ -83,9 +83,9 @@
 //             |     | SFT | CTL |   | BSPC| SPC |     |
                         bindings = <
    &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT    &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR
-   &kp GRAVE    &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_CLR   &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp SQT
-   &sk LSHFT    &sk LCTRL    &sk LALT     &sk LGUI     &trans     &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp BSLH
-                              &trans       &kp LSHFT    &td_ctrl_cmd  &kp BSPC &kp SPACE &trans
+   &sk LSHFT    &sk LCTRL    &sk LALT     &sk LGUI     &kp GRAVE    &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp SQT
+   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_CLR   &trans       &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp BSLH
+                             &trans       &kp LSHFT    &td_ctrl_cmd &kp BSPC  &kp SPACE &trans
                         >;
                 };
         };
