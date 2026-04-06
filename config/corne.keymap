@@ -39,6 +39,12 @@
                         key-positions = <11 12 13>; // S D F
                         bindings = <&kp ESC>;
                 };
+                combo_bt_clr {
+                        timeout-ms = <50>;
+                        key-positions = <20 21 22>; // BT0 + BT1 + BT2
+                        layers = <2>; // Sym layer only
+                        bindings = <&bt BT_CLR>;
+                };
         };
 
         keymap {
@@ -78,13 +84,13 @@
                         display-name = "BT SYM";
 // -----------------------------------------------------------------------------------------
 // |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |
-// |  `  | BT0 | BT1 | BT2 |BTCLR|   |  -  |  =  |  [  |  ]  |  '  |
+// |  `  | BT0 | BT1 | BT2 |     |   |  -  |  =  |  [  |  ]  |  '  |
 // | SFT | CTL | ALT | CMD |     |   |  _  |  +  |  {  |  }  |  \  |
 //             |     | SFT | CTL |   | BSPC| SPC |     |
                         bindings = <
    &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT    &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR
    &sk LSHFT    &sk LCTRL    &sk LALT     &sk LGUI     &kp GRAVE    &kp MINUS &kp EQUAL &kp LBKT  &kp RBKT &kp SQT
-   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_CLR   &trans       &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp BSLH
+   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none        &trans       &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC &kp BSLH
                              &trans       &kp LSHFT    &td_ctrl_cmd &kp BSPC  &kp SPACE &trans
                         >;
                 };
