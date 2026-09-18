@@ -57,12 +57,12 @@
                 compatible = "zmk,combos";
                 combo_enter {
                         timeout-ms = <50>;
-                        key-positions = <16 17 18>; // J K L
+                        key-positions = <16 17 18>; // N E I
                         bindings = <&kp RET>;
                 };
                 combo_esc {
                         timeout-ms = <50>;
-                        key-positions = <11 12 13>; // S D F
+                        key-positions = <11 12 13>; // R S T
                         bindings = <&kp ESC>;
                 };
                 combo_bt_clr {
@@ -79,7 +79,7 @@
                 default_layer {
                         display-name = "COLEDH";
 // -----------------------------------------------------------------------------------------
-// |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  '  |
+// |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |  ;  |
 // |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  |
 // |  X  |  C  |  D  |  V  |  Z  |   |  K  |  H   |  ,  |  .  |  /  |
 //             | SYM | SFT | CTL |   | BSPC| SPC  | NUM |
@@ -125,8 +125,8 @@
                         display-name = "BT SYM";
 // -----------------------------------------------------------------------------------------
 // |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |
-// |  `  | BT0 | BT1 | BT2 |     |   |  -  |  =  |  [  |  ]  |  '  |
-// | SFT | CTL | ALT | CMD | TOG |   |  _  |  +  |  {  |  }  |  \  |
+// | SFT | CTL | ALT | CMD |  `  |   |  -  |  =  |  [  |  ]  |  '  |
+// | BT0 | BT1 | BT2 |     | TOG |   |  _  |  +  |  {  |  }  |  \  |
 //             |     | SFT | CTL |   | BSPC| SPC |     |
                         bindings = <
    &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT        &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR
